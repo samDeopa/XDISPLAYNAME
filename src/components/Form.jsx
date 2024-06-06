@@ -14,16 +14,16 @@ export default function Form() {
       <h1>Full Name Display</h1>
       <form onSubmit={handSubmit}>
         <label>
-          First Name
+          First Name :
           <input name="firstName" required type="text" />
         </label>
         <br></br>
         <label>
-          Last Name
+          Last Name :
           <input name="lastName" required type="text" />
         </label>
         <br></br>
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
       {name.length > 0 && <h3>Full Name : {name}</h3>}
     </div>
