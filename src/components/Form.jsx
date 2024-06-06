@@ -25,7 +25,7 @@ export default function Form() {
         <br></br>
         <button type="submit">Submit</button>
       </form>
-      {name.length > 0 && <h3>Full Name : {name}</h3>}
+      {name.length > 0 && <h3>Full Name: {name}</h3>}
     </div>
   );
 }
